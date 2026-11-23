@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Hatchback', 'Sedan', 'Wagon']
+
+roboflow:
+  workspace: wishhzvzgsh
+  project: car-body-types-ct1hq
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/wishhzvzgsh/car-body-types-ct1hq/1
